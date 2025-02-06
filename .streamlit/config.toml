@@ -17,5 +17,5 @@ button.hoverBackgroundColor="#ff007f"  # Neon Pink background on hover
 button.hoverTextColor="#000000"  # Black text on hover buttons
 
 [layout]
-padding="5px"  # Small padding for a sleek interface
+padding="5px"  # Small padding 
 
