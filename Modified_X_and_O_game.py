@@ -100,7 +100,7 @@ def welcome_page():
     with col2:
         tic_tac_toe_gif = 'Tic_tac_toe_GIPHY.gif'
         # tic_tac_toe_gif_link  = https://upload.wikimedia.org/wikipedia/commons/7/7d/Tic-tac-toe-animated.gif
-        st.image(tic_tac_toe_gif, use_column_width=True)
+        st.image(tic_tac_toe_gif, use_container_width=True)
         st.markdown("<h1 class='centered'>🎮 Noughts & Crosses Arena </h1>", unsafe_allow_html=True)
         if middle2.button("START GAME 🕹️", key="start", help="Click to begin!"):
             st.session_state.page = 'name_input'
