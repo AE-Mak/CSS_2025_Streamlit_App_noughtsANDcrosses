@@ -238,11 +238,11 @@ def calculate_overall_winner():
     draws = df['Result'].eq('Draw').sum()
 
     # Determine the overall winner
-    if human_wins >= 4:
+    if (human_wins > computer_wins) and (draws < 4):
         st.session_state.overall_winner = st.session_state.player_name
-    elif draws >= 4:
+    elif (human_wins == computer_wins) or (draws > 4):
         st.session_state.overall_winner = "Draw"
-    elif computer_wins >= 4:
+    elif (human_wins < computer_wins) and (draws < 4):
         st.session_state.overall_winner = 'Computer'
 
 def player_s_winning_page():
