@@ -1,16 +1,17 @@
 [theme]
 base="light"
-primaryColor="#FF6F61"  # Neon Pink
-backgroundColor="#1e1e2f"  # Dark greyish-blue background
-secondaryBackgroundColor="#2a2a3a"  # Slightly lighter greyish-blue for contrast
-textColor="#F8F8F8"  # Light text for good contrast
+primaryColor="#348e03"  # Green color for primary buttons and highlights
+backgroundColor="#f8f8fb"  # Very light background for a clean look
+secondaryBackgroundColor="#dae9fd"  # A softer blue for secondary elements
+textColor="#2c3e50"  # Dark gray text for clear readability
 
-# Accent colors
-secondaryColor="#FFEB3B"  # Neon Yellow
-tertiaryColor="#4CAF50"  # Neon Green
-quaternaryColor="#FF9800"  # Neon Orange
-highlightColor="#E91E63"  # Strong Neon Pink for highlights and buttons
+# Optional, for enhanced UI appearance:
+font="sans serif"  # A modern font, easy on the eyes for a game-like interface
+codeColor="#333333"  # Dark color for any code or terminal elements, to contrast against light background
 
-# Interactive element colors
-buttonColor="#FF9800"  # Neon Orange button color
-buttonHoverColor="#FF5722"  # Hover effect for buttons with a deeper orange
+[layout]
+wideMode=true  # Make the layout wider, ideal for game environments
+
+[sidebar]
+backgroundColor="#ecf1f4"  # Light gray sidebar background for contrast
+textColor="#2c3e50"  # Dark text color for readability
