@@ -10,10 +10,6 @@ import pandas as pd
 import plotly.express as px
 import random
 
-# # Defining and initialising the global variables
-# #fact_idx = 1 # index for choosing the game's fact
-# fact_idx = random.randint(1, 49)
-
 # Session state initialization
 if 'page' not in st.session_state:
     st.session_state.update({
@@ -56,7 +52,7 @@ body {
     100% {transform: scale(1);}
 }
 .champion-banner {
-    background-color: #4CAF50;
+    background-color: #4caf50;
     color: white;
     padding: 20px;
     border-radius: 10px;
