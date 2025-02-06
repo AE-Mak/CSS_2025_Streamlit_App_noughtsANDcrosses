@@ -347,6 +347,6 @@ pages = {
 }
 pages[st.session_state.page]()
 
-'''
- Copyright 2025 AE_M
-'''
+
+# Copyright 2025 AE_M
+
