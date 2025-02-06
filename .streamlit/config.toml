@@ -1,21 +1,16 @@
 [theme]
-base="dark"
-primaryColor="#ff007f"  # Neon Pink
-backgroundColor="#121212"  # Greyish-Black background
-secondaryBackgroundColor="#2b2b2b"  # Dark greyish background for secondary elements
-textColor="#e0e0e0"  # Light grey text for better readability
-primaryTextColor="#ffffff"  # White text for titles, headers, and important info
-secondaryTextColor="#ffcc00"  # Neon Yellow for secondary text
-tertiaryTextColor="#00ff00"  # Neon Green for tertiary elements
-font="sans serif"  # Clean, modern font
+base="light"
+primaryColor="#FF6F61"  # Neon Pink
+backgroundColor="#1e1e2f"  # Dark greyish-blue background
+secondaryBackgroundColor="#2a2a3a"  # Slightly lighter greyish-blue for contrast
+textColor="#F8F8F8"  # Light text for good contrast
 
-[components]
-button.color="#ff6600"  # Neon Orange for buttons
-button.borderColor="#ff6600"  # Border color for buttons
-button.textColor="#ffffff"  # White text on buttons
-button.hoverBackgroundColor="#ff007f"  # Neon Pink background on hover
-button.hoverTextColor="#000000"  # Black text on hover buttons
+# Accent colors
+secondaryColor="#FFEB3B"  # Neon Yellow
+tertiaryColor="#4CAF50"  # Neon Green
+quaternaryColor="#FF9800"  # Neon Orange
+highlightColor="#E91E63"  # Strong Neon Pink for highlights and buttons
 
-[layout]
-padding="5px"  # Small padding 
-
+# Interactive element colors
+buttonColor="#FF9800"  # Neon Orange button color
+buttonHoverColor="#FF5722"  # Hover effect for buttons with a deeper orange
