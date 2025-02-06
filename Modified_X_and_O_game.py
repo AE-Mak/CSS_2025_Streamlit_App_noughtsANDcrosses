@@ -249,7 +249,11 @@ def player_s_winning_page():
     col1, col2, col3 = st.columns([1, 3, 1])
     with col2:
         if 'overall_winner' not in st.session_state:
-            st.error("No overall winner determined yet.")
+            st.container("No overall winner determined yet. It is a draw.")
+            if st.button("🔄 Play Again", key="restart"):
+                st.session_state.clear()
+                st.rerun()
+            
             return
 
         overall_winner = st.session_state.overall_winner
