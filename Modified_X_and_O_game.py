@@ -346,3 +346,7 @@ pages = {
     'stats': stats_page
 }
 pages[st.session_state.page]()
+
+'''
+ Copyright 2025 AE_M
+'''
