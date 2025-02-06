@@ -311,7 +311,7 @@ def stats_page():
 
         overall_winner = st.session_state.overall_winner
         
-        st.markdown("<div class='champion-banner'>🏆 Champion: " + 
+        st.markdown("<div class='champion-banner'>🏆 Winner: " + 
                    f"{overall_winner} 🏆</div>", unsafe_allow_html=True)
 
         # Create the pie chart for victory distribution
